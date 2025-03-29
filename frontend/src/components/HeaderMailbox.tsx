@@ -360,14 +360,14 @@ const HeaderMailbox: React.FC<HeaderMailboxProps> = ({
                 )}
               </div>
               
-              <button
+{/*               <button
                 onClick={() => setIsCustomMode(true)}
                 className={`w-6 h-6 ${customizeButtonClass}`}
                 disabled={isActionLoading}
                 title={t('mailbox.customize')}
               >
                 <i className="fas fa-edit text-xs"></i>
-              </button>
+              </button> */}
             </div>
             
             {/* 错误信息显示 */}
