@@ -11,7 +11,7 @@ const Footer: React.FC = () => {
       <Container>
         <div className="text-center text-sm text-muted-foreground">
           <p className="mb-2">© {year} {t('app.title')}</p>
-          <div className="flex justify-center items-center space-x-4">
+{/*           <div className="flex justify-center items-center space-x-4">
             <a 
               href="https://zaunist.com" 
               target="_blank" 
@@ -39,7 +39,7 @@ const Footer: React.FC = () => {
               <i className="fas fa-chart-line mr-1"></i>
               {t('common.xugouMonitor')}
             </a>
-          </div>
+          </div> */}
         </div>
       </Container>
     </footer>
