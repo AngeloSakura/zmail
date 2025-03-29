@@ -227,13 +227,13 @@ const HeaderMailbox: React.FC<HeaderMailboxProps> = ({
             >
               {t('common.cancel')}
             </button>
-{/*             <button
+            <button
               type="submit"
               className="px-2 py-1 text-sm rounded-md bg-primary text-primary-foreground hover:bg-primary/80 transition-colors"
               disabled={isActionLoading}
             >
               {isActionLoading ? t('common.loading') : t('common.create')}
-            </button> */}
+            </button>
           </div>
           
           {/* 错误信息显示 */}
