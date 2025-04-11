@@ -297,15 +297,16 @@ const HeaderMailbox: React.FC<HeaderMailboxProps> = ({
                   </div>
                 )}
               </div>
-              
-{/*               <button
+
+{/*          隐藏下面这一段可以隐藏自定义邮箱       */}
+              <button
                 onClick={() => setIsCustomMode(true)}
                 className={`w-8 h-8 ${customizeButtonClass}`}
                 disabled={isActionLoading}
                 title={t('mailbox.customize')}
               >
                 <i className="fas fa-edit text-sm"></i>
-              </button> */}
+              </button>
             </div>
             
             {/* 错误信息显示 */}
@@ -360,14 +361,15 @@ const HeaderMailbox: React.FC<HeaderMailboxProps> = ({
                 )}
               </div>
               
-{/*               <button
+              {/*          隐藏下面这一段可以隐藏自定义邮箱       */}
+              <button
                 onClick={() => setIsCustomMode(true)}
                 className={`w-6 h-6 ${customizeButtonClass}`}
                 disabled={isActionLoading}
                 title={t('mailbox.customize')}
               >
                 <i className="fas fa-edit text-xs"></i>
-              </button> */}
+              </button>
             </div>
             
             {/* 错误信息显示 */}
